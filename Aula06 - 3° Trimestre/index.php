@@ -10,17 +10,37 @@
             $a=2;
             $b=$a+5;
             echo"A é igual a $a e B é igual a $b";
+            echo"<br><br>";
+
             $a=$a+3;
-            echo"<br>Agora A é igual a $a";
+            echo"Agora A é igual a $a";
+            echo"<br><br>";
 
             $b+=8;
-            echo"<br>Agora B é igual a $b";
+            echo"Agora B é igual a $b";
+            echo"<br><br>";
 
             $b-=5;
-            echo"<br>Agora B é igual a $b";
+            echo"Agora B é igual a $b";
+            echo"<br><br>";
 
+            echo"<hr>";
 
-        ?>
+            $b*=2;
+            echo"<br>Multiplicando o valor de B por 2 fica igual a $b";
+            echo"<br><br>";
+
+            $b/=10;
+            echo"Dividindo o valor de B por 10 fica igual a $b";
+            echo"<br><br>";
+
+            $b%=3;
+            echo"O resto da divisão do valor de B por 3 fica igual a $b";
+            echo"<br><br>";
+
+            $b.=10;
+            echo"O valor de B com o número 10 fica igual a $b";
+            ?>
 
     </body>
 </html>
